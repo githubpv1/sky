@@ -2776,6 +2776,12 @@ textarea::placeholder {
   margin-left: 10px;
 }
 
+@media (min-width: 768px) {
+  .head__tel {
+    min-height: 40px;
+  }
+}
+
 @media (min-width: 1200px) {
   .head__tel {
     width: auto;
